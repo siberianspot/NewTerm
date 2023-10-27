@@ -12,6 +12,11 @@ on:
       - '**/*.md'
       - 'assets/**'
   workflow_dispatch:
+    inputs:
+      release:
+        required: true
+        default: false
+        type: boolean
 
 jobs:
   build:
@@ -31,7 +36,7 @@ jobs:
     - name: Compile
       id: package_build
       run: |
-        gmake package THEOS=~/theos
+        gmake package THEOS=~/theos ${{ inputs.release && 'FINALPACKAGE=1' || '' }}
         echo "package=$(cat .theos/last_package)" >> $GITHUB_OUTPUT
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3
