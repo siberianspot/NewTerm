@@ -14,10 +14,6 @@
 	<key>ABOUT</key>
 	<string>關於 NewTerm</string>
 
-	<!-- VoiceOver label for the password manager button. -->
-	<key>PASSWORD_MANAGER</key>
-	<string>密碼管理員</string>
-
 	<!-- Message displayed in the terminal when it fails to start. -->
 	<key>TERMINAL_LAUNCH_FAILED</key>
 	<string>Shell 處理程序未預期關閉。</string>
