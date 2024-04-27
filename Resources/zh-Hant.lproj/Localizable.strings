@@ -20,7 +20,7 @@
 
 	<!-- Alert title displayed when a terminal could not be launched. -->
 	<key>TERMINAL_LAUNCH_FAILED_TITLE</key>
-	<string>無法啟動終端機因為 Shell 處理程序未預期關閉。</</string>
+	<string>無法啟動終端機因為 Shell 處理程序未預期關閉。</string>
 
 	<!-- Alert body displayed when a terminal could not be launched. -->
 	<key>TERMINAL_LAUNCH_FAILED_BODY</key>
