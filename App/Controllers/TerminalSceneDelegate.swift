@@ -125,7 +125,7 @@ class TerminalSceneDelegate: UIResponder, UIWindowSceneDelegate, IdentifiableSce
 		let appVersion = infoPlist["CFBundleShortVersionString"] as! String
 
 		let alertController = UIAlertController(title: .localize("UPDATE_AVAILABLE_TITLE", comment: "Update available alert title"),
-																						message: String.localizedStringWithFormat(.localize("UPDATE_AVAILABLE_MESSAGE", comment: "Message: Version \%@ is available to install. You’re currently using version \%@."), response.versionString, appVersion),
+																						message: String.localizedStringWithFormat(.localize("UPDATE_AVAILABLE_MESSAGE", comment: "Message: Version %@ is available to install. You’re currently using version %@."), response.versionString, appVersion),
 																						preferredStyle: .alert)
 		alertController.addAction(UIAlertAction(title: .localize("ALERT_DISMISS", comment: "Alert window 'Dismiss' button title"), style: .cancel, handler: nil))
 		alertController.addAction(UIAlertAction(title: .localize("UPDATE_DOWNLOAD", comment: "Download update button title"), style: .default, handler: { _ in

@@ -4,95 +4,207 @@
 <dict>
 	<key>Anonymous Pro</key>
 	<dict>
-		<key>regular</key>
-		<string>AnonymousPro</string>
 		<key>bold</key>
 		<string>AnonymousPro-Bold</string>
-		<key>italic</key>
-		<string>AnonymousPro-Italic</string>
 		<key>boldItalic</key>
 		<string>AnonymousPro-BoldItalic</string>
+		<key>italic</key>
+		<string>AnonymousPro-Italic</string>
+		<key>light</key>
+		<string>AnonymousPro</string>
+		<key>lightItalic</key>
+		<string>AnonymousPro-Italic</string>
+		<key>regular</key>
+		<string>AnonymousPro</string>
+		<key>systemMonospaceFont</key>
+		<true/>
 	</dict>
 	<key>Cascadia Code</key>
 	<dict>
-		<key>regular</key>
-		<string>CascadiaCode-Roman</string>
 		<key>bold</key>
 		<string>CascadiaCode-Roman_Bold</string>
+		<key>boldItalic</key>
+		<string>CascadiaCode-Roman_Bold</string>
+		<key>italic</key>
+		<string>CascadiaCode-Roman</string>
+		<key>light</key>
+		<string>CascadiaCode-Roman</string>
+		<key>lightItalic</key>
+		<string>CascadiaCode-Roman</string>
+		<key>regular</key>
+		<string>CascadiaCode-Roman</string>
+		<key>systemMonospaceFont</key>
+		<true/>
 	</dict>
 	<key>Courier</key>
 	<dict>
-		<key>regular</key>
-		<string>Courier</string>
 		<key>bold</key>
 		<string>Courier-Bold</string>
+		<key>boldItalic</key>
+		<string>Courier-Bold</string>
+		<key>italic</key>
+		<string>Courier</string>
+		<key>light</key>
+		<string>Courier</string>
+		<key>lightItalic</key>
+		<string>Courier</string>
+		<key>regular</key>
+		<string>Courier</string>
+		<key>systemMonospaceFont</key>
+		<true/>
 	</dict>
 	<key>Courier New</key>
 	<dict>
-		<key>regular</key>
-		<string>CourierNewPSMT</string>
 		<key>bold</key>
 		<string>CourierNewPS-BoldMT</string>
+		<key>boldItalic</key>
+		<string>CourierNewPS-BoldMT</string>
+		<key>italic</key>
+		<string>CourierNewPSMT</string>
+		<key>light</key>
+		<string>CourierNewPSMT</string>
+		<key>lightItalic</key>
+		<string>CourierNewPSMT</string>
+		<key>regular</key>
+		<string>CourierNewPSMT</string>
+		<key>systemMonospaceFont</key>
+		<true/>
 	</dict>
 	<key>Fira Code</key>
 	<dict>
-		<key>regular</key>
-		<string>FiraCode-Retina</string>
 		<key>bold</key>
 		<string>FiraCode-Bold</string>
+		<key>boldItalic</key>
+		<string>FiraCode-Bold</string>
+		<key>italic</key>
+		<string>FiraCode-Retina</string>
+		<key>light</key>
+		<string>FiraCode-Retina</string>
+		<key>lightItalic</key>
+		<string>FiraCode-Retina</string>
+		<key>regular</key>
+		<string>FiraCode-Retina</string>
+		<key>systemMonospaceFont</key>
+		<true/>
 	</dict>
 	<key>Fixedsys Excelsior</key>
 	<dict>
-		<key>regular</key>
-		<string>FixedsysExcelsiorIIIb</string>
 		<key>bold</key>
 		<string>FixedsysExcelsiorIIIb</string>
+		<key>boldItalic</key>
+		<string>FixedsysExcelsiorIIIb</string>
+		<key>italic</key>
+		<string>FixedsysExcelsiorIIIb</string>
+		<key>light</key>
+		<string>FixedsysExcelsiorIIIb</string>
+		<key>lightItalic</key>
+		<string>FixedsysExcelsiorIIIb</string>
+		<key>regular</key>
+		<string>FixedsysExcelsiorIIIb</string>
+		<key>systemMonospaceFont</key>
+		<true/>
 	</dict>
 	<key>Hack</key>
 	<dict>
-		<key>regular</key>
-		<string>Hack-Regular</string>
 		<key>bold</key>
 		<string>Hack-Bold</string>
+		<key>boldItalic</key>
+		<string>Hack-Bold</string>
+		<key>italic</key>
+		<string>Hack-Regular</string>
+		<key>light</key>
+		<string>Hack-Regular</string>
+		<key>lightItalic</key>
+		<string>Hack-Regular</string>
+		<key>regular</key>
+		<string>Hack-Regular</string>
+		<key>systemMonospaceFont</key>
+		<true/>
 	</dict>
 	<key>Inconsolata</key>
 	<dict>
-		<key>regular</key>
-		<string>Inconsolata-Regular</string>
 		<key>bold</key>
 		<string>Inconsolata-Regular_Bold</string>
+		<key>boldItalic</key>
+		<string>Inconsolata-Regular_Bold</string>
+		<key>italic</key>
+		<string>Inconsolata-Regular</string>
+		<key>light</key>
+		<string>Inconsolata-Regular</string>
+		<key>lightItalic</key>
+		<string>Inconsolata-Regular</string>
+		<key>regular</key>
+		<string>Inconsolata-Regular</string>
+		<key>systemMonospaceFont</key>
+		<true/>
 	</dict>
 	<key>Inconsolata Condensed</key>
 	<dict>
-		<key>regular</key>
-		<string>Inconsolata-Regular_Condensed-Regular</string>
 		<key>bold</key>
 		<string>Inconsolata-Regular_Condensed-Bold</string>
+		<key>boldItalic</key>
+		<string>Inconsolata-Regular_Condensed-Bold</string>
+		<key>italic</key>
+		<string>Inconsolata-Regular_Condensed-Regular</string>
+		<key>light</key>
+		<string>Inconsolata-Regular_Condensed-Regular</string>
+		<key>lightItalic</key>
+		<string>Inconsolata-Regular_Condensed-Regular</string>
+		<key>regular</key>
+		<string>Inconsolata-Regular_Condensed-Regular</string>
+		<key>systemMonospaceFont</key>
+		<true/>
 	</dict>
 	<key>Inconsolata Expanded</key>
 	<dict>
-		<key>regular</key>
-		<string>Inconsolata-Regular_Expanded-Regular</string>
 		<key>bold</key>
 		<string>Inconsolata-Regular_Expanded-Bold</string>
+		<key>boldItalic</key>
+		<string>Inconsolata-Regular_Expanded-Bold</string>
+		<key>italic</key>
+		<string>Inconsolata-Regular_Expanded-Regular</string>
+		<key>light</key>
+		<string>Inconsolata-Regular_Expanded-Regular</string>
+		<key>lightItalic</key>
+		<string>Inconsolata-Regular_Expanded-Regular</string>
+		<key>regular</key>
+		<string>Inconsolata-Regular_Expanded-Regular</string>
+		<key>systemMonospaceFont</key>
+		<true/>
 	</dict>
 	<key>JetBrains Mono</key>
 	<dict>
-		<key>regular</key>
-		<string>JetBrainsMono-Regular</string>
 		<key>bold</key>
 		<string>JetBrainsMono-Bold</string>
-		<key>italic</key>
-		<string>JetBrainsMono-Italic</string>
 		<key>boldItalic</key>
 		<string>JetBrainsMono-BoldItalic</string>
+		<key>italic</key>
+		<string>JetBrainsMono-Italic</string>
+		<key>light</key>
+		<string>JetBrainsMono-Regular</string>
+		<key>lightItalic</key>
+		<string>JetBrainsMono-Italic</string>
+		<key>regular</key>
+		<string>JetBrainsMono-Regular</string>
+		<key>systemMonospaceFont</key>
+		<true/>
 	</dict>
 	<key>Menlo</key>
 	<dict>
-		<key>regular</key>
-		<string>Menlo-Regular</string>
 		<key>bold</key>
 		<string>Menlo-Bold</string>
+		<key>boldItalic</key>
+		<string>Menlo-Bold</string>
+		<key>italic</key>
+		<string>Menlo-Regular</string>
+		<key>light</key>
+		<string>Menlo-Regular</string>
+		<key>lightItalic</key>
+		<string>Menlo-Regular</string>
+		<key>regular</key>
+		<string>Menlo-Regular</string>
+		<key>systemMonospaceFont</key>
+		<true/>
 	</dict>
 	<key>SF Mono</key>
 	<dict>
@@ -101,21 +213,37 @@
 	</dict>
 	<key>Source Code Pro</key>
 	<dict>
-		<key>regular</key>
-		<string>SourceCodePro-Regular</string>
 		<key>bold</key>
 		<string>SourceCodePro-Bold</string>
+		<key>boldItalic</key>
+		<string>SourceCodePro-Bold</string>
+		<key>italic</key>
+		<string>SourceCodePro-Regular</string>
+		<key>light</key>
+		<string>SourceCodePro-Regular</string>
+		<key>lightItalic</key>
+		<string>SourceCodePro-Regular</string>
+		<key>regular</key>
+		<string>SourceCodePro-Regular</string>
+		<key>systemMonospaceFont</key>
+		<true/>
 	</dict>
 	<key>Ubuntu Mono</key>
 	<dict>
-		<key>regular</key>
-		<string>UbuntuMono-Regular</string>
 		<key>bold</key>
 		<string>UbuntuMono-Bold</string>
-		<key>italic</key>
-		<string>UbuntuMono-Italic</string>
 		<key>boldItalic</key>
 		<string>UbuntuMono-BoldItalic</string>
+		<key>italic</key>
+		<string>UbuntuMono-Italic</string>
+		<key>light</key>
+		<string>UbuntuMono</string>
+		<key>lightItalic</key>
+		<string>UbuntuMono-Italic</string>
+		<key>regular</key>
+		<string>UbuntuMono-Regular</string>
+		<key>systemMonospaceFont</key>
+		<true/>
 	</dict>
 </dict>
 </plist>

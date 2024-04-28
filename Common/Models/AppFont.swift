@@ -23,15 +23,15 @@ public struct AppFont: Codable {
 	public let systemMonospaceFont: Bool?
 
 	public var previewFont: UIFont? {
+		if let regular = regular,
+			 let font = UIFont(name: regular, size: 12) {
+			return UIFontMetrics(forTextStyle: .body)
+				.scaledFont(for: font)
+		}
 		if systemMonospaceFont ?? false {
 			let descriptor = UIFontDescriptor.preferredFontDescriptor(withTextStyle: .body)
 				.withDesign(.monospaced)!
 			return UIFont(descriptor: descriptor, size: 0)
-		}
-		if let regular = regular,
-			 let font = UIFont(name: regular, size: 13) {
-			return UIFontMetrics(forTextStyle: .body)
-				.scaledFont(for: font)
 		}
 		return nil
 	}

@@ -68,6 +68,7 @@
 		4ED1273125F9E8F60049F59B /* UIColor+AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED1273025F9E8F60049F59B /* UIColor+AppColors.swift */; };
 		4EDC998E26F4401B0030C1F9 /* SettingsInterfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDC998D26F4401B0030C1F9 /* SettingsInterfaceView.swift */; };
 		4EECEADF289A90D300AA919B /* TabToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EECEADE289A90D300AA919B /* TabToolbarView.swift */; };
+		7CEC6D332BDEC232004A7678 /* colortest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7CEC6D352BDEC232004A7678 /* colortest.txt */; };
 		CF6B3BAA244C4538000A608B /* LogoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6B3BA9244C4537000A608B /* LogoHeaderView.swift */; };
 		CF71BC9322BB6DEA00AFB1E1 /* NewTermCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF71BC8422BB6DBA00AFB1E1 /* NewTermCommon.framework */; };
 		CF71BC9722BB6E0300AFB1E1 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB96C322B5481B00585BE6 /* Preferences.swift */; };
@@ -88,7 +89,6 @@
 		CFBB972522B548D700585BE6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFBB96F022B548D700585BE6 /* Localizable.strings */; };
 		CFBB972622B548D700585BE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFBB96F222B548D700585BE6 /* InfoPlist.strings */; };
 		CFBB972A22B548D700585BE6 /* bell.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBB96F722B548D700585BE6 /* bell.m4a */; };
-		CFBB973122B548D700585BE6 /* colortest.txt in Resources */ = {isa = PBXBuildFile; fileRef = CFBB96FE22B548D700585BE6 /* colortest.txt */; };
 		CFBB973222B548D700585BE6 /* Fonts.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFBB96FF22B548D700585BE6 /* Fonts.plist */; };
 		CFBB975622B548D700585BE6 /* Themes.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFBB972322B548D700585BE6 /* Themes.plist */; };
 		CFBB975A22B5499600585BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBB975922B5499600585BE6 /* Assets.xcassets */; };
@@ -206,6 +206,16 @@
 		4ED1273025F9E8F60049F59B /* UIColor+AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+AppColors.swift"; sourceTree = "<group>"; };
 		4EDC998D26F4401B0030C1F9 /* SettingsInterfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInterfaceView.swift; sourceTree = "<group>"; };
 		4EECEADE289A90D300AA919B /* TabToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabToolbarView.swift; sourceTree = "<group>"; };
+		7CC3AB6B2BDEAC2200A5778C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7CC3AB6C2BDEAC2200A5778C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ru; path = ru.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		7CC3AB6D2BDEAC2200A5778C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CC3AB6E2BDEAC3700A5778C /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7CC3AB6F2BDEAC3700A5778C /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
+		7CC3AB702BDEAC3700A5778C /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		7CEC6D342BDEC232004A7678 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text; name = "zh-Hant"; path = "zh-Hant.lproj/colortest.txt"; sourceTree = "<group>"; };
+		7CEC6D362BDEC2B6004A7678 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text; name = ru; path = ru.lproj/colortest.txt; sourceTree = "<group>"; };
+		7CEC6D372BDEC2BB004A7678 /* en */ = {isa = PBXFileReference; lastKnownFileType = text; name = en; path = en.lproj/colortest.txt; sourceTree = "<group>"; };
+		7CEC6D382BDEC2BD004A7678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = Base.lproj/colortest.txt; sourceTree = "<group>"; };
 		CF22F9B31FFB97F7003175DE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CF6B3BA9244C4537000A608B /* LogoHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoHeaderView.swift; sourceTree = "<group>"; };
 		CF71BC5F22BB657500AFB1E1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -233,7 +243,6 @@
 		CFBB96F122B548D700585BE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CFBB96F322B548D700585BE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CFBB96F722B548D700585BE6 /* bell.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bell.m4a; sourceTree = "<group>"; };
-		CFBB96FE22B548D700585BE6 /* colortest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = colortest.txt; sourceTree = "<group>"; };
 		CFBB96FF22B548D700585BE6 /* Fonts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Fonts.plist; sourceTree = "<group>"; };
 		CFBB972322B548D700585BE6 /* Themes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Themes.plist; sourceTree = "<group>"; };
 		CFBB975922B5499600585BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -529,7 +538,7 @@
 				CFBB96FF22B548D700585BE6 /* Fonts.plist */,
 				CFBB972322B548D700585BE6 /* Themes.plist */,
 				CFBB96F722B548D700585BE6 /* bell.m4a */,
-				CFBB96FE22B548D700585BE6 /* colortest.txt */,
+				7CEC6D352BDEC232004A7678 /* colortest.txt */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -653,6 +662,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ru,
+				"zh-Hant",
 				Base,
 			);
 			mainGroup = CF22F9A81FFB97F7003175DE;
@@ -684,7 +695,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFBB973222B548D700585BE6 /* Fonts.plist in Resources */,
-				CFBB973122B548D700585BE6 /* colortest.txt in Resources */,
+				7CEC6D332BDEC232004A7678 /* colortest.txt in Resources */,
 				4E479710262D44D8003CF48C /* Localizable.stringsdict in Resources */,
 				CFBB975A22B5499600585BE6 /* Assets.xcassets in Resources */,
 				CFBB972622B548D700585BE6 /* InfoPlist.strings in Resources */,
@@ -831,6 +842,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				4E479712262D44D8003CF48C /* en */,
+				7CC3AB6C2BDEAC2200A5778C /* ru */,
+				7CC3AB6F2BDEAC3700A5778C /* zh-Hant */,
 			);
 			indentWidth = 2;
 			name = Localizable.stringsdict;
@@ -838,10 +851,23 @@
 			tabWidth = 2;
 			usesTabs = 1;
 		};
+		7CEC6D352BDEC232004A7678 /* colortest.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CEC6D342BDEC232004A7678 /* zh-Hant */,
+				7CEC6D362BDEC2B6004A7678 /* ru */,
+				7CEC6D372BDEC2BB004A7678 /* en */,
+				7CEC6D382BDEC2BD004A7678 /* Base */,
+			);
+			name = colortest.txt;
+			sourceTree = "<group>";
+		};
 		CFBB96F022B548D700585BE6 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CFBB96F122B548D700585BE6 /* en */,
+				7CC3AB6B2BDEAC2200A5778C /* ru */,
+				7CC3AB6E2BDEAC3700A5778C /* zh-Hant */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -850,6 +876,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				CFBB96F322B548D700585BE6 /* en */,
+				7CC3AB6D2BDEAC2200A5778C /* ru */,
+				7CC3AB702BDEAC3700A5778C /* zh-Hant */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -958,10 +986,10 @@
 					Common/External,
 					Common/External/ncurses,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[arch=arm64]" = 16.0;
 				LIBRARY_SEARCH_PATHS = Common/External;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "";
 			};
@@ -970,6 +998,7 @@
 		CF22F9AB1FFB97F7003175DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -1002,10 +1031,10 @@
 					Common/External,
 					Common/External/ncurses,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[arch=arm64]" = 16.0;
 				LIBRARY_SEARCH_PATHS = Common/External;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				OTHER_SWIFT_FLAGS = "";
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
@@ -1206,6 +1235,8 @@
 					App,
 				);
 				INFOPLIST_FILE = "App/Supporting Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = NewTerm;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INSTALL_PATH = "$(INSTALL_PREFIX)$(LOCAL_APPS_DIR)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1297,6 +1328,8 @@
 					App,
 				);
 				INFOPLIST_FILE = "App/Supporting Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = NewTerm;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INSTALL_PATH = "$(INSTALL_PREFIX)$(LOCAL_APPS_DIR)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1381,8 +1414,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/migueldeicaza/SwiftTerm.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
