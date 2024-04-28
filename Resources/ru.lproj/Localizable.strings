@@ -93,7 +93,5 @@
 	<string>Неизвестный код ошибки (%i)</string>
 	<key>Up</key>
 	<string>Вверх</string>
-	<key>colortest</key>
-	<string>colortest_ru</string>
 </dict>
 </plist>
