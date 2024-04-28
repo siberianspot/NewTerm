@@ -98,7 +98,7 @@ struct TerminalSampleView: View {
 		terminal = Terminal(delegate: delegate, options: options)
 		stringSupplier.terminal = terminal
 
-		if let colorTest = try? Data(contentsOf: Bundle.main.url(forResource: "colortest", withExtension: "txt")!) {
+		if let colorTest = try? Data(contentsOf: Bundle.main.url(forResource: .localize("colortest", cment: "Interface settings preview text file name without extension") , withExtension: "txt")!) {
 			terminal?.feed(byteArray: [UTF8Char](colorTest))
 		}
 	}
@@ -117,7 +117,7 @@ struct TerminalSampleView: View {
 				// TODO: Calculate the exact number of lines we need from the buffer
 				let glyphSize = stringSupplier.fontMetrics?.boundingBox ?? .zero
 				terminal.resize(cols: Int(size.width / glyphSize.width),
-												rows: 32)
+												rows: Int(size.height / glyphSize.height))
 			})
 			.onReceive(timer) { _ in
 				state.lines = Array(0...(terminal.rows + terminal.getTopVisibleRow()))

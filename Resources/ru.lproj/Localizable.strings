@@ -1,18 +1,99 @@
-"ABOUT"="О NewTerm";
-"CLEAR_TERMINAL"="Очистить окно терминала";
-"CLOSE_TAB"="Закрыть вкладку";
-"CLOSE_WINDOW"="Закрыть окно";
-"LOCALE_SYSTEM"="Системный язык: %@";
-"NEW_TAB"="Новая вкладка";
-"NEW_WINDOW"="Новое окно";
-"PASSWORD_MANAGER"="Менеджер паролей";
-"PROCESS_COMPLETED_TITLE"="Сессия завершена";
-"SETTINGS"="Настройки";
-"SHOW_NEXT_TAB"="Показать следующую вкладку";
-"SHOW_PREVIOUS_TAB"="Показать предыдущую вкладку";
-"SPLIT_HORIZONTALLY"="Разделить по горизонтали";
-"SPLIT_VERTICALLY"="Разделить по вертикали";
-"TERMINAL"="Терминал";
-"TERMINAL_LAUNCH_FAILED"="Процесс оболочки неожиданно завершился.";
-"TERMINAL_LAUNCH_FAILED_BODY"="Подробности смотрите в сообщении об ошибке в окне терминала (где их может и не быть, о чем разработчик не упоминает).\nВозможно, потребуется проверить скрипты автозапуска (\/etc\/profile.d\/*) или переустановить пакет core-packages, чтобы исправить проблемы.";
-"TERMINAL_LAUNCH_FAILED_TITLE"="Не удается запустить терминал — процесс оболочки неожиданно завершился.";
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ABOUT</key>
+	<string>О NewTerm</string>
+	<key>ALERT_DISMISS</key>
+	<string>Отклонить</string>
+	<key>CLEAR_TERMINAL</key>
+	<string>Очистить окно терминала</string>
+	<key>CLOSE_TAB</key>
+	<string>Закрыть вкладку</string>
+	<key>CLOSE_WINDOW</key>
+	<string>Закрыть окно</string>
+	<key>Control</key>
+	<string>CTRL</string>
+	<key>Couldn’t initialize a terminal. %@</key>
+	<string>Не удаётся инициализировать терминал (%@).</string>
+	<key>Couldn’t prepare terminal for logging in. %@</key>
+	<string>Не удаётся подготовить терминал к началу сессии (%@).</string>
+	<key>Couldn’t start a terminal process. %@</key>
+	<string>Не удаётся запустить процесс терминала (%@).</string>
+	<key>Delete Forward</key>
+	<string>DEL</string>
+	<key>Down</key>
+	<string>Вниз</string>
+	<key>End</key>
+	<string>End</string>
+	<key>Escape</key>
+	<string>ESC</string>
+	<key>Function Keys</key>
+	<string>F-клавиши</string>
+	<key>Home</key>
+	<string>Home</string>
+	<key>Internal state error</key>
+	<string>Ошибка состояния (уже запущено, не запущено, выгружено из памяти в процессе работы)</string>
+	<key>LOCALE_SYSTEM</key>
+	<string>Системный язык: %@</string>
+	<key>Left</key>
+	<string>Влево</string>
+	<key>More</key>
+	<string>Ещё</string>
+	<key>NEW_TAB</key>
+	<string>Новая вкладка</string>
+	<key>NEW_WINDOW</key>
+	<string>Новое окно</string>
+	<key>PASSWORD_MANAGER</key>
+	<string>Менеджер паролей</string>
+	<key>PROCESS_COMPLETED_TITLE</key>
+	<string>Сессия завершена</string>
+	<key>Page Down</key>
+	<string>Page Down</string>
+	<key>Page Up</key>
+	<string>Page Up</string>
+	<key>Right</key>
+	<string>Вправо</string>
+	<key>SETTINGS</key>
+	<string>Настройки</string>
+	<key>SETTINGS_ADVANCED</key>
+	<string>Расширенные</string>
+	<key>SETTINGS_GENERAL</key>
+	<string>Основные</string>
+	<key>SETTINGS_INTERFACE</key>
+	<string>Внешний вид</string>
+	<key>SETTINGS_PERFORMANCE</key>
+	<string>Производительность</string>
+	<key>SHOW_NEXT_TAB</key>
+	<string>Показать следующую вкладку</string>
+	<key>SHOW_PREVIOUS_TAB</key>
+	<string>Показать предыдущую вкладку</string>
+	<key>SPLIT_HORIZONTALLY</key>
+	<string>Разделить по горизонтали</string>
+	<key>SPLIT_VERTICALLY</key>
+	<string>Разделить по вертикали</string>
+	<key>TERMINAL</key>
+	<string>Терминал</string>
+	<key>TERMINAL_LAUNCH_FAILED</key>
+	<string>Процесс оболочки неожиданно завершился.</string>
+	<key>TERMINAL_LAUNCH_FAILED_BODY</key>
+	<string>Подробности смотрите в сообщении об ошибке в окне терминала (где их может и не быть, о чем разработчик не упоминает).
+Возможно, потребуется проверить скрипты автозапуска (/etc/profile.d/*) или переустановить пакет core-packages, чтобы исправить проблемы.</string>
+	<key>TERMINAL_LAUNCH_FAILED_TITLE</key>
+	<string>Не удается запустить терминал -- процесс оболочки неожиданно завершился.</string>
+	<key>Tab</key>
+	<string>TAB</string>
+	<key>UPDATE_AVAILABLE_MESSAGE</key>
+	<string>Версия %@ доступна для загрузки и установки. Вы пользуетесь версией %@.</string>
+	<key>UPDATE_AVAILABLE_TITLE</key>
+	<string>Доступно обновление</string>
+	<key>UPDATE_DOWNLOAD</key>
+	<string>Загрузить</string>
+	<key>Unknown (%i)</key>
+	<string>Неизвестный код ошибки (%i)</string>
+	<key>Up</key>
+	<string>Вверх</string>
+	<key>colortest</key>
+	<string>colortest_ru</string>
+</dict>
+</plist>

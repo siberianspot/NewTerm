@@ -38,7 +38,7 @@ class SettingsSceneDelegate: UIResponder, UIWindowSceneDelegate, IdentifiableSce
 		window!.tintColor = .tint
 
 #if targetEnvironment(macCatalyst)
-		windowScene.title = "General"
+		windowScene.title = .localize("SETTINGS_GENERAL", comment: "Settings toolbar item 'general' label")
 #else
 		windowScene.title = .localize("SETTINGS", comment: "Title of Settings page.")
 #endif
@@ -92,25 +92,25 @@ extension SettingsSceneDelegate: NSToolbarDelegate {
 		switch itemIdentifier {
 		case .general:
 			return makeToolbarItem(itemIdentifier: itemIdentifier,
-														 label: "General",
+														 label: .localize("SETTINGS_GENERAL", comment: "Settings toolbar item 'general' label"),
 														 icon: "gear",
 														 action: #selector(selectGeneralTab))
 
 		case .interface:
 			return makeToolbarItem(itemIdentifier: itemIdentifier,
-														 label: "Interface",
+														 label: .localize("SETTINGS_INTERFACE", comment: "Settings toolbar item 'interface' label"),
 														 icon: "macwindow",
 														 action: #selector(selectInterfaceTab))
 
 		case .performance:
 			return makeToolbarItem(itemIdentifier: itemIdentifier,
-														 label: "Performance",
+														 label: .localize("SETTINGS_PERFORMANCE", comment: "Settings toolbar item 'performance' label"),
 														 icon: "hare",
 														 action: #selector(selectPerformanceTab))
 
 		case .advanced:
 			return makeToolbarItem(itemIdentifier: itemIdentifier,
-														 label: "Advanced",
+														 label: .localize("SETTINGS_ADVANCED", comment: "Settings toolbar item 'advanced' label"),
 														 icon: "sparkles",
 														 action: #selector(selectAdvancedTab))
 
