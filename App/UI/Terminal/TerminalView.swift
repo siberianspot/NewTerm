@@ -98,7 +98,7 @@ struct TerminalSampleView: View {
 		terminal = Terminal(delegate: delegate, options: options)
 		stringSupplier.terminal = terminal
 
-		if let colorTest = try? Data(contentsOf: Bundle.main.url(forResource: .localize("colortest", cment: "Interface settings preview text file name without extension") , withExtension: "txt")!) {
+		if let colorTest = try? Data(contentsOf: Bundle.main.url(forResource: .localize("colortest", comment: "Interface settings preview text file name without extension") , withExtension: "txt")!) {
 			terminal?.feed(byteArray: [UTF8Char](colorTest))
 		}
 	}
