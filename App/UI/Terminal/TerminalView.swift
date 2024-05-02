@@ -119,8 +119,8 @@ struct TerminalSampleView: View {
 				stringSupplier.colorMap = colorMap
 				stringSupplier.fontMetrics = fontMetrics
 			}
-			.onChange(of: colorMap, perform: { updateStringSupplier() })
-			.onChange(of: fontMetrics, perform: { updateStringSupplier() })
+			.onChange(of: colorMap, perform: { _ in updateStringSupplier() })
+			.onChange(of: fontMetrics, perform: { _ in updateStringSupplier() })
 			.onChangeOfFrame(perform: { size in
 				// Determine the screen size based on the font size
 				// TODO: Calculate the exact number of lines we need from the buffer
