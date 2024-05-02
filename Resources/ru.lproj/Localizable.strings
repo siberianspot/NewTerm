@@ -93,5 +93,11 @@
 	<string>Неизвестный код ошибки (%i)</string>
 	<key>Up</key>
 	<string>Вверх</string>
+	<key>SETTINGS_FONT</key>
+	<string>Шрифт</string>
+	<key>SETTINGS_FONT_NOT_INSTALLED</key>
+	<string>Не установлен. Скачать?</string>
+	<key>SETTINGS_FONT_SIZE</key>
+	<string>Размер шрифта: %i</string>
 </dict>
 </plist>

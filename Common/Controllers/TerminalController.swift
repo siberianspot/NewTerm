@@ -252,7 +252,7 @@ public class TerminalController {
 			var linesToUpdate = updateRange == (0, 0) ? Set() : Set(updateRange.startY...updateRange.endY)
 			if cursorLocation != self.lastCursorLocation {
 				linesToUpdate.insert(cursorLocation.y)
-				if self.lastCursorLocation.y != -1 && self.lastCursorLocation.y < scrollInvariantRows {
+				if self.lastCursorLocation.y != -1 && self.lastCursorLocatio.y < scrollInvariantRows {
 					linesToUpdate.insert(self.lastCursorLocation.y)
 				}
 			}

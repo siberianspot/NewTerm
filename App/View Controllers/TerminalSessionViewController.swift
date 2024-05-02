@@ -207,7 +207,7 @@ class TerminalSessionViewController: BaseTerminalSplitViewControllerChild {
 			fatalError("Failed to get glyph size")
 		}
 
-		let newSize = ScreenSize(cols: UInt16(layoutSize.width / glyphSize.width),
+		let newSize = ScreenSize(cols: UInt16(layoutSize.width / glyphSize.width.rounded(.up)),
 														 rows: UInt16(layoutSize.height / glyphSize.height.rounded(.up)),
 														 cellSize: glyphSize)
 		if screenSize != newSize {

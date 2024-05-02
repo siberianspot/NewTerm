@@ -22,7 +22,7 @@ struct SettingsFontView: View {
 												 colorMap: preferences.colorMap)
 
 			PreferencesList {
-				PreferencesGroup(header: Text("Font")) {
+				PreferencesGroup(header: Text(.localize("SETTINGS_FONT", comment: "Settings menu label"))) {
 					PreferencesPicker(selection: preferences.$fontName, label: EmptyView()) {
 						ForEach(sortedFonts, id: \.key) { key, value in
 							HStack(alignment: .center) {
@@ -30,7 +30,7 @@ struct SettingsFontView: View {
 									Image(systemName: .arrowDownCircle)
 										.font(.body.weight(.medium))
 										.foregroundColor(.accentColor)
-										.accessibility(label: Text("Not installed. Tap to download."))
+										.accessibility(label: Text(.localize("SETTINGS_FONT_NOT_INSTALLED", comment:"Font settings - font not installed")))
 								}
 
 								Text(key)
@@ -43,14 +43,14 @@ struct SettingsFontView: View {
 
 #if !targetEnvironment(macCatalyst)
 				PreferencesGroup {
-					Stepper(value: preferences.$fontSizePhone, in: 10...20, step: 1) {
-						Text("Font Size: \(Int(preferences.fontSizePhone))")
+					Stepper(value: preferences.$fontSizePhone, in: 6...20, step: 1) {
+						Text(String(format: .localize("SETTINGS_FONT_SIZE", comment:"Font settings"), Int(preferences.fontSizePhone)))
 					}
 				}
 #endif
 			}
 		}
-		.navigationBarTitle("Font")
+		.navigationBarTitle(.localize("SETTINGS_FONT", comment: "Settings menu label"))
 	}
 
 }

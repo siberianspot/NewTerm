@@ -118,7 +118,8 @@ public struct FontMetrics: Hashable {
 		var descent: CGFloat = 0
 		var leading: CGFloat = 0
 		self.width = CGFloat(CTLineGetTypographicBounds(line, &ascent, &descent, &leading))
-		self.height = ascent + descent + leading
+		// self.height = ascent + descent + leading
+		self.height = regularFont.lineHeight
 	}
 
 }

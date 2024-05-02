@@ -55,5 +55,11 @@ You may need to review startup scripts or reinstall core packages to fix this is
 	<string>Update Available</string>
 	<key>UPDATE_DOWNLOAD</key>
 	<string>Download</string>
+	<key>SETTINGS_FONT</key>
+	<string>Font</string>
+	<key>SETTINGS_FONT_NOT_INSTALLED</key>
+	<string>Not installed. Tap to download.</string>
+	<key>SETTINGS_FONT_SIZE</key>
+	<string>Font Size: %i</string>
 </dict>
 </plist>

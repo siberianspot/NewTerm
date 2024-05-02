@@ -102,7 +102,16 @@ struct TerminalSampleView: View {
 			terminal?.feed(byteArray: [UTF8Char](colorTest))
 		}
 	}
-
+	
+	private func updateStringSupplier() {
+		if stringSupplier.fontMetrics != self.fontMetrics {
+			stringSupplier.fontMetrics = self.fontMetrics
+		}
+		if stringSupplier.colorMap != self.colorMap {
+			stringSupplier.colorMap = self.colorMap
+		}
+	}
+	
 	var body: some View {
 		TerminalView()
 			.environmentObject(state)
@@ -110,12 +119,14 @@ struct TerminalSampleView: View {
 				stringSupplier.colorMap = colorMap
 				stringSupplier.fontMetrics = fontMetrics
 			}
-			.onChange(of: colorMap, perform: { stringSupplier.colorMap = $0 })
-			.onChange(of: fontMetrics, perform: { stringSupplier.fontMetrics = $0 })
+			.onChange(of: colorMap, perform: { updateStringSupplier() })
+			.onChange(of: fontMetrics, perform: { updateStringSupplier() })
 			.onChangeOfFrame(perform: { size in
 				// Determine the screen size based on the font size
 				// TODO: Calculate the exact number of lines we need from the buffer
-				let glyphSize = stringSupplier.fontMetrics?.boundingBox ?? .zero
+				
+				updateStringSupplier()
+				let glyphSize = stringSupplier.fontMetrics.boundingBox
 				terminal.resize(cols: Int(size.width / glyphSize.width),
 												rows: Int(size.height / glyphSize.height))
 			})

@@ -31,7 +31,7 @@ public struct AppFont: Codable {
 		if systemMonospaceFont ?? false {
 			let descriptor = UIFontDescriptor.preferredFontDescriptor(withTextStyle: .body)
 				.withDesign(.monospaced)!
-			return UIFont(descriptor: descriptor, size: 0)
+			return UIFont(descriptor: descriptor, size: 12)
 		}
 		return nil
 	}

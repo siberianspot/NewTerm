@@ -300,11 +300,11 @@ class RootViewController: UIViewController {
 		let title: String?
 		let action: String
 		if isBigDevice {
-			title = String.localizedStringWithFormat(.localize("CLOSE_WINDOW_TITLE"), terminals.count)
+			title = String(format: .localize("CLOSE_WINDOW_TITLE"), terminals.count)
 			action = .close
 		} else {
 			title = nil
-			action = String.localizedStringWithFormat(.localize("CLOSE_WINDOW_ACTION"), terminals.count)
+			action = String(format: .localize("CLOSE_WINDOW_ACTION"), terminals.count)
 		}
 
 		let alertController = UIAlertController(title: title, message: nil, preferredStyle: isBigDevice ? .alert : .actionSheet)
